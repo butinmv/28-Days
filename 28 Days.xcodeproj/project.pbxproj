@@ -13,6 +13,32 @@
 		A2D1915326287C7F0022F145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D1915126287C7F0022F145 /* Main.storyboard */; };
 		A2D1915526287C800022F145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D1915426287C800022F145 /* Assets.xcassets */; };
 		A2D1915826287C800022F145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D1915626287C800022F145 /* LaunchScreen.storyboard */; };
+		A2D1919426287F320022F145 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1919326287F320022F145 /* Coordinator.swift */; };
+		A2D1919826287FDF0022F145 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1919726287FDF0022F145 /* RootCoordinator.swift */; };
+		A2D1919D262881660022F145 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1919C262881660022F145 /* RootViewModel.swift */; };
+		A2D191A0262882280022F145 /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1919F262882280022F145 /* TabBarProvider.swift */; };
+		A2D191A7262884180022F145 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191A6262884180022F145 /* String+Extension.swift */; };
+		A2D191AB2628862B0022F145 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191AA2628862B0022F145 /* SFSymbols.swift */; };
+		A2D191B026288B5B0022F145 /* CoordinatorClosableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191AF26288B5B0022F145 /* CoordinatorClosableProtocol.swift */; };
+		A2D191B626288C620022F145 /* ChallengeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191B526288C620022F145 /* ChallengeCoordinator.swift */; };
+		A2D191B926288D780022F145 /* UITabBarItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191B826288D780022F145 /* UITabBarItem+Extension.swift */; };
+		A2D191BC26288DFE0022F145 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191BB26288DFE0022F145 /* ChallengeViewController.swift */; };
+		A2D191C02628B2CC0022F145 /* StatisticCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191BF2628B2CC0022F145 /* StatisticCoordinator.swift */; };
+		A2D191C32628B2F30022F145 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191C22628B2F30022F145 /* StatisticViewController.swift */; };
+		A2D191C62628B31C0022F145 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191C52628B31C0022F145 /* ProfileCoordinator.swift */; };
+		A2D191C92628B3340022F145 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191C82628B3340022F145 /* ProfileViewController.swift */; };
+		A2D191CD2628B3A80022F145 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191CC2628B3A80022F145 /* RootTabBarController.swift */; };
+		A2D191D52628B63A0022F145 /* ChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D191D42628B63A0022F145 /* ChallengeViewController.xib */; };
+		A2D191D82628B67C0022F145 /* StatisticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D191D72628B67C0022F145 /* StatisticViewController.xib */; };
+		A2D191DB2628B6930022F145 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D191DA2628B6930022F145 /* ProfileViewController.xib */; };
+		A2D191E22628BA780022F145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D191E02628BA780022F145 /* Localizable.strings */; };
+		A2D191F02628BD180022F145 /* UniversalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191EF2628BD180022F145 /* UniversalCollectionView.swift */; };
+		A2D191F42628C0420022F145 /* CellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191F32628C0420022F145 /* CellViewModelProtocol.swift */; };
+		A2D191F72628C0700022F145 /* UniversalCollectionViewCellRegistratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191F62628C0700022F145 /* UniversalCollectionViewCellRegistratable.swift */; };
+		A2D191FB2628C2780022F145 /* UniversalCollectionViewSectionRegistratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191FA2628C2780022F145 /* UniversalCollectionViewSectionRegistratable.swift */; };
+		A2D191FE2628C5660022F145 /* UniversalCollectionViewCellFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D191FD2628C5660022F145 /* UniversalCollectionViewCellFactoryProtocol.swift */; };
+		A2D192022628C59C0022F145 /* UniversalCollectionSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D192012628C59C0022F145 /* UniversalCollectionSectionViewModel.swift */; };
+		A2D192052628C6D30022F145 /* UniversalCollectionViewLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D192042628C6D30022F145 /* UniversalCollectionViewLayoutProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +50,36 @@
 		A2D1915426287C800022F145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D1915726287C800022F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D1915926287C800022F145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D1919326287F320022F145 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A2D1919726287FDF0022F145 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A2D1919C262881660022F145 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		A2D1919F262882280022F145 /* TabBarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
+		A2D191A6262884180022F145 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A2D191AA2628862B0022F145 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		A2D191AF26288B5B0022F145 /* CoordinatorClosableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorClosableProtocol.swift; sourceTree = "<group>"; };
+		A2D191B526288C620022F145 /* ChallengeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCoordinator.swift; sourceTree = "<group>"; };
+		A2D191B826288D780022F145 /* UITabBarItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Extension.swift"; sourceTree = "<group>"; };
+		A2D191BB26288DFE0022F145 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		A2D191BF2628B2CC0022F145 /* StatisticCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCoordinator.swift; sourceTree = "<group>"; };
+		A2D191C22628B2F30022F145 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		A2D191C52628B31C0022F145 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		A2D191C82628B3340022F145 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A2D191CC2628B3A80022F145 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		A2D191D42628B63A0022F145 /* ChallengeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChallengeViewController.xib; sourceTree = "<group>"; };
+		A2D191D72628B67C0022F145 /* StatisticViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticViewController.xib; sourceTree = "<group>"; };
+		A2D191DA2628B6930022F145 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		A2D191DD2628B9990022F145 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		A2D191DE2628B99A0022F145 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A2D191E12628BA780022F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A2D191E52628BA870022F145 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A2D191E72628BB5B0022F145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A2D191EF2628BD180022F145 /* UniversalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionView.swift; sourceTree = "<group>"; };
+		A2D191F32628C0420022F145 /* CellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModelProtocol.swift; sourceTree = "<group>"; };
+		A2D191F62628C0700022F145 /* UniversalCollectionViewCellRegistratable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionViewCellRegistratable.swift; sourceTree = "<group>"; };
+		A2D191FA2628C2780022F145 /* UniversalCollectionViewSectionRegistratable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionViewSectionRegistratable.swift; sourceTree = "<group>"; };
+		A2D191FD2628C5660022F145 /* UniversalCollectionViewCellFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionViewCellFactoryProtocol.swift; sourceTree = "<group>"; };
+		A2D192012628C59C0022F145 /* UniversalCollectionSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionSectionViewModel.swift; sourceTree = "<group>"; };
+		A2D192042628C6D30022F145 /* UniversalCollectionViewLayoutProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCollectionViewLayoutProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +112,153 @@
 		A2D1914A26287C7F0022F145 /* 28 Days */ = {
 			isa = PBXGroup;
 			children = (
-				A2D1914B26287C7F0022F145 /* AppDelegate.swift */,
-				A2D1914D26287C7F0022F145 /* SceneDelegate.swift */,
+				A2D191A4262883EC0022F145 /* Common */,
+				A2D1919026287F110022F145 /* Modules */,
 				A2D1914F26287C7F0022F145 /* ViewController.swift */,
 				A2D1915126287C7F0022F145 /* Main.storyboard */,
 				A2D1915426287C800022F145 /* Assets.xcassets */,
 				A2D1915626287C800022F145 /* LaunchScreen.storyboard */,
 				A2D1915926287C800022F145 /* Info.plist */,
+				A2D191E02628BA780022F145 /* Localizable.strings */,
 			);
 			path = "28 Days";
+			sourceTree = "<group>";
+		};
+		A2D1919026287F110022F145 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191A2262882300022F145 /* Application */,
+				A2D1919126287F1A0022F145 /* Generic */,
+				A2D191B226288C290022F145 /* Challenges */,
+				A2D191B326288C2F0022F145 /* Statictic */,
+				A2D191B426288C370022F145 /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A2D1919126287F1A0022F145 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1919626287FCC0022F145 /* Root */,
+				A2D1919226287F280022F145 /* Coordinator */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		A2D1919226287F280022F145 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1919326287F320022F145 /* Coordinator.swift */,
+				A2D191AF26288B5B0022F145 /* CoordinatorClosableProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A2D1919626287FCC0022F145 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1919726287FDF0022F145 /* RootCoordinator.swift */,
+				A2D1919C262881660022F145 /* RootViewModel.swift */,
+				A2D1919F262882280022F145 /* TabBarProvider.swift */,
+				A2D191CC2628B3A80022F145 /* RootTabBarController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A2D191A2262882300022F145 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1914B26287C7F0022F145 /* AppDelegate.swift */,
+				A2D1914D26287C7F0022F145 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A2D191A4262883EC0022F145 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191A9262886210022F145 /* Utils */,
+				A2D191A5262883FC0022F145 /* UIKit+Extension */,
+				A2D191E92628BCE20022F145 /* UI Component */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A2D191A5262883FC0022F145 /* UIKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191A6262884180022F145 /* String+Extension.swift */,
+				A2D191B826288D780022F145 /* UITabBarItem+Extension.swift */,
+			);
+			path = "UIKit+Extension";
+			sourceTree = "<group>";
+		};
+		A2D191A9262886210022F145 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191AA2628862B0022F145 /* SFSymbols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A2D191B226288C290022F145 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191B526288C620022F145 /* ChallengeCoordinator.swift */,
+				A2D191BB26288DFE0022F145 /* ChallengeViewController.swift */,
+				A2D191D42628B63A0022F145 /* ChallengeViewController.xib */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		A2D191B326288C2F0022F145 /* Statictic */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191BF2628B2CC0022F145 /* StatisticCoordinator.swift */,
+				A2D191C22628B2F30022F145 /* StatisticViewController.swift */,
+				A2D191D72628B67C0022F145 /* StatisticViewController.xib */,
+			);
+			path = Statictic;
+			sourceTree = "<group>";
+		};
+		A2D191B426288C370022F145 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191C52628B31C0022F145 /* ProfileCoordinator.swift */,
+				A2D191C82628B3340022F145 /* ProfileViewController.swift */,
+				A2D191DA2628B6930022F145 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A2D191E92628BCE20022F145 /* UI Component */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191F92628C2530022F145 /* ReusableViews */,
+				A2D191F22628C02F0022F145 /* Cells */,
+				A2D191EF2628BD180022F145 /* UniversalCollectionView.swift */,
+				A2D191FD2628C5660022F145 /* UniversalCollectionViewCellFactoryProtocol.swift */,
+				A2D192012628C59C0022F145 /* UniversalCollectionSectionViewModel.swift */,
+				A2D192042628C6D30022F145 /* UniversalCollectionViewLayoutProtocol.swift */,
+			);
+			path = "UI Component";
+			sourceTree = "<group>";
+		};
+		A2D191F22628C02F0022F145 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191F32628C0420022F145 /* CellViewModelProtocol.swift */,
+				A2D191F62628C0700022F145 /* UniversalCollectionViewCellRegistratable.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A2D191F92628C2530022F145 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				A2D191FA2628C2780022F145 /* UniversalCollectionViewSectionRegistratable.swift */,
+			);
+			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +302,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = A2D1913F26287C7F0022F145;
 			productRefGroup = A2D1914926287C7F0022F145 /* Products */;
@@ -124,8 +319,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D191DB2628B6930022F145 /* ProfileViewController.xib in Resources */,
 				A2D1915826287C800022F145 /* LaunchScreen.storyboard in Resources */,
 				A2D1915526287C800022F145 /* Assets.xcassets in Resources */,
+				A2D191E22628BA780022F145 /* Localizable.strings in Resources */,
+				A2D191D52628B63A0022F145 /* ChallengeViewController.xib in Resources */,
+				A2D191D82628B67C0022F145 /* StatisticViewController.xib in Resources */,
 				A2D1915326287C7F0022F145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +336,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D191FB2628C2780022F145 /* UniversalCollectionViewSectionRegistratable.swift in Sources */,
+				A2D191A7262884180022F145 /* String+Extension.swift in Sources */,
+				A2D192022628C59C0022F145 /* UniversalCollectionSectionViewModel.swift in Sources */,
+				A2D191B026288B5B0022F145 /* CoordinatorClosableProtocol.swift in Sources */,
+				A2D1919426287F320022F145 /* Coordinator.swift in Sources */,
+				A2D191C32628B2F30022F145 /* StatisticViewController.swift in Sources */,
+				A2D191CD2628B3A80022F145 /* RootTabBarController.swift in Sources */,
+				A2D191F02628BD180022F145 /* UniversalCollectionView.swift in Sources */,
+				A2D191C02628B2CC0022F145 /* StatisticCoordinator.swift in Sources */,
+				A2D191AB2628862B0022F145 /* SFSymbols.swift in Sources */,
 				A2D1915026287C7F0022F145 /* ViewController.swift in Sources */,
+				A2D191C92628B3340022F145 /* ProfileViewController.swift in Sources */,
+				A2D1919826287FDF0022F145 /* RootCoordinator.swift in Sources */,
+				A2D191C62628B31C0022F145 /* ProfileCoordinator.swift in Sources */,
+				A2D191F42628C0420022F145 /* CellViewModelProtocol.swift in Sources */,
+				A2D191F72628C0700022F145 /* UniversalCollectionViewCellRegistratable.swift in Sources */,
+				A2D192052628C6D30022F145 /* UniversalCollectionViewLayoutProtocol.swift in Sources */,
+				A2D191A0262882280022F145 /* TabBarProvider.swift in Sources */,
 				A2D1914C26287C7F0022F145 /* AppDelegate.swift in Sources */,
+				A2D191B926288D780022F145 /* UITabBarItem+Extension.swift in Sources */,
+				A2D1919D262881660022F145 /* RootViewModel.swift in Sources */,
+				A2D191FE2628C5660022F145 /* UniversalCollectionViewCellFactoryProtocol.swift in Sources */,
+				A2D191B626288C620022F145 /* ChallengeCoordinator.swift in Sources */,
+				A2D191BC26288DFE0022F145 /* ChallengeViewController.swift in Sources */,
 				A2D1914E26287C7F0022F145 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +371,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A2D1915226287C7F0022F145 /* Base */,
+				A2D191DD2628B9990022F145 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,8 +380,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				A2D1915726287C800022F145 /* Base */,
+				A2D191DE2628B99A0022F145 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D191E02628BA780022F145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D191E12628BA780022F145 /* Base */,
+				A2D191E52628BA870022F145 /* ru */,
+				A2D191E72628BB5B0022F145 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -169,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
